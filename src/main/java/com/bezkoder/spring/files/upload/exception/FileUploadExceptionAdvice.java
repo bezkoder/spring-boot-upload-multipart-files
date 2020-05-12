@@ -3,7 +3,7 @@ package com.bezkoder.spring.files.upload.exception;
 import org.springframework.web.multipart.MaxUploadSizeExceededException;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.bezkoder.spring.files.upload.model.ResponseMessage;
+import com.bezkoder.spring.files.upload.message.ResponseMessage;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
