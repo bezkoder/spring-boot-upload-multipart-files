@@ -2,6 +2,7 @@ package com.bezkoder.spring.files.upload.service;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -21,7 +22,7 @@ public class FilesStorageServiceImpl implements FilesStorageService {
   @Override
   public void init() {
     try {
-      Files.createDirectory(root);
+      Files.createDirectories(root);
     } catch (IOException e) {
       throw new RuntimeException("Could not initialize folder for upload!");
     }
@@ -32,7 +33,11 @@ public class FilesStorageServiceImpl implements FilesStorageService {
     try {
       Files.copy(file.getInputStream(), this.root.resolve(file.getOriginalFilename()));
     } catch (Exception e) {
-      throw new RuntimeException("Could not store the file. Error: " + e.getMessage());
+      if (e instanceof FileAlreadyExistsException) {
+        throw new RuntimeException("A file of that name already exists.");
+      }
+
+      throw new RuntimeException(e.getMessage());
     }
   }
 
@@ -48,6 +53,16 @@ public class FilesStorageServiceImpl implements FilesStorageService {
         throw new RuntimeException("Could not read the file!");
       }
     } catch (MalformedURLException e) {
+      throw new RuntimeException("Error: " + e.getMessage());
+    }
+  }
+
+  @Override
+  public boolean delete(String filename) {
+    try {
+      Path file = root.resolve(filename);
+      return Files.deleteIfExists(file);
+    } catch (IOException e) {
       throw new RuntimeException("Error: " + e.getMessage());
     }
   }

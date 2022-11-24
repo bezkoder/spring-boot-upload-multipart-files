@@ -3,6 +3,8 @@
 For more detail, please visit:
 > [Spring Boot Multipart File upload example](https://www.bezkoder.com/spring-boot-file-upload/)
 
+> [Spring Boot Delete File example](https://www.bezkoder.com/spring-boot-delete-file/)
+
 Front-end Apps to work with this Spring Boot Server:
 - [Angular 8](https://www.bezkoder.com/angular-spring-boot-file-upload/) / [Angular 10](https://www.bezkoder.com/angular-10-file-upload/) / [Angular 11](https://www.bezkoder.com/angular-11-file-upload/) / [Angular 12](https://www.bezkoder.com/angular-12-file-upload/) / [Angular 13](https://www.bezkoder.com/angular-13-file-upload/) / [Angular 14](https://www.bezkoder.com/angular-14-file-upload/)
 
