@@ -1,6 +1,7 @@
 package com.bezkoder.spring.files.upload;
 
-import javax.annotation.Resource;
+// import javax.annotation.Resource; // for Spring Boot 2
+import jakarta.annotation.Resource;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

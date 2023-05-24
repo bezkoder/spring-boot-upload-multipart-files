@@ -1,4 +1,10 @@
-# Spring Boot Upload Files example - Multipart File
+# Spring Boot File Upload example - Multipart File
+
+Our Spring Boot Application will provide APIs for:
+- uploading File to a static folder in the Server
+- downloading File from server with the link
+- getting list of Files’ information (file name & url)
+- deleting File
 
 For more detail, please visit:
 > [Spring Boot Multipart File upload example](https://www.bezkoder.com/spring-boot-file-upload/)
@@ -32,21 +38,23 @@ More Practice:
 
 > [Spring Boot: Upload/Import Excel file data into MySQL Database](https://www.bezkoder.com/spring-boot-upload-excel-file-database/)
 
-> [Spring Boot CRUD Rest Apis example with MySQL](https://www.bezkoder.com/spring-boot-jpa-crud-rest-api/)
+> [Spring Boot JPA + MySQL: CRUD Rest API example](https://www.bezkoder.com/spring-boot-jpa-crud-rest-api/)
 
-> [Spring Boot CRUD Rest Apis example with PostgreSQL](https://www.bezkoder.com/spring-boot-postgresql-example/)
+> [Spring Boot JPA + PostgreSQL: CRUD Rest API example](https://www.bezkoder.com/spring-boot-postgresql-example/)
 
-> [Spring Boot CRUD Rest Apis example with MongoDB](https://www.bezkoder.com/spring-boot-mongodb-crud/)
+> [Spring Boot + MongoDB: CRUD Rest API example](https://www.bezkoder.com/spring-boot-mongodb-crud/)
 
-> [Spring Boot and Swagger 3 example](https://www.bezkoder.com/spring-boot-swagger-3/)
-
-> [Spring Boot Redis Cache example](https://www.bezkoder.com/spring-boot-redis-cache-example/)
-
-> [Exception handling: @RestControllerAdvice example in Spring Boot](https://www.bezkoder.com/spring-boot-restcontrolleradvice/)
+> Exception handling: [@RestControllerAdvice example in Spring Boot](https://www.bezkoder.com/spring-boot-restcontrolleradvice/)
 
 > [Spring Boot Repository Unit Test with @DataJpaTest](https://www.bezkoder.com/spring-boot-unit-test-jpa-repo-datajpatest/)
 
 > [Spring Boot Rest Controller Unit Test with @WebMvcTest](https://www.bezkoder.com/spring-boot-webmvctest/)
+
+> Cache the result: [Spring Boot Redis Cache example](https://www.bezkoder.com/spring-boot-redis-cache-example/)
+
+> Documentation: [Spring Boot with Swagger 3 example](https://www.bezkoder.com/spring-boot-swagger-3/)
+
+> Reactive Rest API: [Spring Boot WebFlux example](https://www.bezkoder.com/spring-boot-webflux-rest-api/)
 
 Associations:
 > [Spring Boot One To Many example with Spring JPA, Hibernate](https://www.bezkoder.com/jpa-one-to-many/)
