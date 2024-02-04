@@ -17,7 +17,7 @@ mvn spring-boot:run
 ```
 
 ## Front-end Apps to work with this Spring Boot Server:
-- [Angular 8](https://www.bezkoder.com/angular-spring-boot-file-upload/) / [Angular 10](https://www.bezkoder.com/angular-10-file-upload/) / [Angular 11](https://www.bezkoder.com/angular-11-file-upload/) / [Angular 12](https://www.bezkoder.com/angular-12-file-upload/) / [Angular 13](https://www.bezkoder.com/angular-13-file-upload/) / [Angular 14](https://www.bezkoder.com/angular-14-file-upload/) / [Angular 15](https://www.bezkoder.com/angular-15-file-upload/)
+- [Angular 8](https://www.bezkoder.com/angular-spring-boot-file-upload/) / [Angular 10](https://www.bezkoder.com/angular-10-file-upload/) / [Angular 11](https://www.bezkoder.com/angular-11-file-upload/) / [Angular 12](https://www.bezkoder.com/angular-12-file-upload/) / [Angular 13](https://www.bezkoder.com/angular-13-file-upload/) / [Angular 14](https://www.bezkoder.com/angular-14-file-upload/) / [Angular 15](https://www.bezkoder.com/angular-15-file-upload/) / [Angular 16](https://www.bezkoder.com/angular-16-file-upload/) / [Angular 17](https://www.bezkoder.com/angular-17-file-upload/)
 
 - [Vue Client](https://www.bezkoder.com/vue-axios-file-upload/) / [Vuetify Client](https://www.bezkoder.com/vuetify-file-upload/)
 
