@@ -20,14 +20,15 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 
 import com.bezkoder.spring.files.upload.message.ResponseMessage;
 import com.bezkoder.spring.files.upload.model.FileInfo;
-import com.bezkoder.spring.files.upload.service.FilesStorageService;
+import com.bezkoder.spring.files.upload.service.FilesStorageServiceImpl;
 
 @Controller
 @CrossOrigin("http://localhost:8081")
 public class FilesController {
 
+  //using the FileStorageServiceImpl rather than FilesStorageService
   @Autowired
-  FilesStorageService storageService;
+  FilesStorageServiceImpl storageService;
 
   @PostMapping("/upload")
   public ResponseEntity<ResponseMessage> uploadFile(@RequestParam("file") MultipartFile file) {
